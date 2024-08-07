@@ -1,0 +1,200 @@
+body{
+    background: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 2rem;
+ 
+
+}
+
+.logo-div {
+    display: inline;
+    width: 79%;
+
+}
+
+.logo-div img {
+    display: inline;
+    height: 60px;
+    border-radius: 20px;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 35px;
+}
+
+nav a, .btn-1{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover{
+color: white;
+}
+
+
+#active{
+    background-color: green;
+}
+
+.cart-div{
+    
+    display: inline;
+}
+.cart-div button{
+    text-decoration: none;
+    border-radius: 5px;
+    background: black;
+    color: blueviolet;
+    border-color: white;
+    margin-left: 79%;
+    margin-bottom: 1%;
+}
+
+button,.btn-3{
+    border-radius: 5px;
+    background: transparent;
+    border-color: white;
+}
+
+.main1 img{
+    align-items: baseline;
+    width: 100%;
+    height: 165px;
+  
+}
+
+.hbdiv1, .hbdiv2, .hbdiv3, .hbdiv4, .hbdiv5, .hbdiv6 {
+    display: flex;
+    gap: 2rem;
+    background-color: aqua;
+    margin: 2%;
+    border: blue;
+    height: fit-content;
+    border-radius: 3%;
+    float: left;
+    overflow: scroll;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    }
+
+/* product page css*/
+#pbdiv1, #pbdiv2, #pbdiv3, #pbdiv4, #pbdiv5, #pbdiv6 {
+    background-color: aqua;
+    margin: 2%;
+    gap: 2rem;
+    height: fit-content;
+    border-radius: 3%;
+    float: left;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+.login-wrapper,.register-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+form{
+    background-color: aqua;
+    width: 20%;
+    padding:30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter:blur;
+    border: 2px solid aqua;
+    border-radius: 3%;
+    backdrop-filter:blur;
+    }
+
+input[type="text"]{
+background: transparent;
+width: 100%;
+border: none;
+border-bottom: 2px solid black;
+padding-bottom: 5px;
+margin-bottom: 20px;
+
+}
+
+input[type="email"]{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    }
+
+input[type="password"]{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    }
+
+#lbtn-1{
+margin-right: 46%;
+}
+
+
+.about-1 img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+
+}
+
+
+.main-about,.contact-us{
+        background-color: aqua; 
+        display: flex; 
+        flex-direction: column;  
+        width: 100%;
+        border-radius: 3%;
+        align-items: center;
+        justify-content: center;
+
+}
+
+@media (width > 470px){
+   .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
